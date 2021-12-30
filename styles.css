@@ -27,8 +27,8 @@ button{
     background-color: cornflowerblue;
     width: 50%;
     height: 20px;
-
-
+    margin: 5px;
+    border-radius: 20%;
 }
 
 a{
