@@ -3,9 +3,20 @@
     color: coral;
     font-family:Arial, Helvetica, sans-serif;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: coral;
+    border-radius: 35%;
+    justify-content: center;
+    gap: 10px;
+}
 
 h1{
     text-align: center;
+    font-size: 75px;
 }
 
 h2{
@@ -21,23 +32,17 @@ img{
 
 .recipe-link{
     text-align: center;
-}
-
-button{
+    height: 30px;
+    width: 50px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 45%;
     background-color: cornflowerblue;
-    width: 50%;
-    height: 20px;
-    margin: 5px;
-    border-radius: 20%;
+    flex: 1 1 auto;
 }
 
 a{
     background-color: cornflowerblue;
     color: cornsilk;
-}
-
-.recipe-list{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
